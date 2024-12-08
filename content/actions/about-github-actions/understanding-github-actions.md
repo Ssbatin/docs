@@ -1,4 +1,52 @@
----
+---<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sbatin.com</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <header>
+        <h1>sbatin.com</h1>
+        <nav>
+            <ul>
+                <li><a href="#">عنّا</a></li>
+                <li><a href="#">الشقق</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <h2>ابحث عن شقتك المثالية</h2>
+            <form action="#">
+                <label for="location">الموقع:</label>
+                <input type="text" id="location" name="location">
+
+                <label for="check-in">تاريخ الوصول:</label>
+                <input type="date" id="check-in" name="check-in">
+
+                <label for="check-out">تاريخ المغادرة:</label>
+                <input type="date" id="check-out" name="check-out">
+
+                <button type="submit">بحث</button>
+            </form>
+        </section>
+
+        <section class="featured-apartments">
+            <h2>شقق مميزة</h2>
+            <div class="apartment-grid">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 sbatin.com</p>
+    </footer>
+
+    <script src="script.js"></script> </body>
+</html>
 title: Understanding GitHub Actions
 shortTitle: Understand GitHub Actions
 intro: 'Learn the basics of {% data variables.product.prodname_actions %}, including core concepts and essential terminology.'
